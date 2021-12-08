@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 namespace ByteBank.Funcionarios
 {
     public abstract class Funcionario
-    {
-
+    { 
         public static int TotalDeFuncionarios { get; private set; }
 
         public string Nome { get; set; }
